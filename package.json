@@ -1,0 +1,16 @@
+{
+  "name": "awscloudwatchtoses",
+  "description": "Lambda function to send cloudwatch logs to an e-mail address",
+  "version": "1.0.0",
+  "dependencies": {
+    "aws-sdk": "^2.94.0",
+    "bluebird": "^3.5.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "echo \"Error: not startable without lambda\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
